@@ -16,15 +16,15 @@ class Header extends Component{
                 <nav className="navbar navbar-light bg-dark">
                 <Container>
                     <Row>
-                        <Col>
+                        <Col lg ="4">
                             <a className="navbar-brand" href="https://www.google.com"><h1>SLIMGUR</h1></a>
                         </Col>
                         
-                        <Col>
+                        <Col lg ="4">
                             <Search />
                         </Col>
 
-                        <Col>
+                        <Col lg ="4">
                             <Button className ="float-right" color="info">SIGN UP</Button>
                         </Col>
                     </Row>
@@ -45,7 +45,7 @@ class Header extends Component{
                                         <DropdownItem>
                                             USER SUBMITTED
                                         </DropdownItem>
-                                        </DropdownMenu>
+                                    </DropdownMenu>
                                 </UncontrolledDropdown>
                             </Nav>
 
